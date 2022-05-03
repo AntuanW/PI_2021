@@ -1,43 +1,45 @@
 #include <stdio.h>
+#include <stdlib.h>
 
-int tab[1000000];
-int wynik[1000000];
+int distance(int i, int j, int k, int l){
 
-int scan_arr(int A[], int n, int x){
-    if(n == 0) return 0;
-    else{
-        for (int i = 0; i < n; ++i) {
-            if (A[i] == x) return 1;
-        }
-    }
-    return 0;
+    if(abs(i-k) > abs(j-l)) return abs(i-k);
+    else return abs(j-l);
+
 }
+
+int tab[100][100];
+int w[100][100];
 
 int main() {
 
-    int n, k, counter = 0, indeks = 0;
+    int n,r;
+    scanf("%d %d", &n, &r);
 
-    scanf("%d %d", &n, &k);
-
-    for(int i = 0; i < n; ++i){
-        scanf("%d",&tab[i]);
-    }
-
-    for(int j=0; j<n; j++){
-        if(scan_arr(wynik, indeks, tab[j]) == 1 ) counter++;
-        else{
-            for(int l = 0; l < n; ++l){
-                if((tab[l] >= tab[j] - k) && (tab[l] <= tab[j] + k) && (tab[l] != tab[j])){
-                    counter++;
-                    wynik[indeks] = tab[j];
-                    indeks++;
-                    break;
-                }
-            }
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            scanf("%d", &tab[i][j]);
         }
     }
 
-    printf("%d", counter);
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            int sum = 0;
+            for (int k = 0; k < n; ++k) {
+                for (int l = 0; l < n; ++l) {
+                    if(distance(i, j, k, l) <= r) sum += tab[k][l];
+                }
+            }
+            w[i][j] = sum;
+        }
+    }
+
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j < n; ++j) {
+            printf("%d ", w[i][j]);
+            if(j == n-1) printf("\n");
+        }
+    }
 
     return 0;
 }
