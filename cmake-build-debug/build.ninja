@@ -46,11 +46,11 @@ cmake_ninja_workdir = /Users/antoniwojcik/CLionProjects/PI-2021/cmake-build-debu
 
 build cmake_object_order_depends_target_1_ex1: phony || CMakeFiles/1_ex1.dir
 
-build CMakeFiles/1_ex1.dir/Lab_1/ex1.c.o: C_COMPILER__1_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_1/ex1.c || cmake_object_order_depends_target_1_ex1
-  DEP_FILE = CMakeFiles/1_ex1.dir/Lab_1/ex1.c.o.d
+build CMakeFiles/1_ex1.dir/Lab_01/ex1.c.o: C_COMPILER__1_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_01/ex1.c || cmake_object_order_depends_target_1_ex1
+  DEP_FILE = CMakeFiles/1_ex1.dir/Lab_01/ex1.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/1_ex1.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_ex1.dir/Lab_1
+  OBJECT_FILE_DIR = CMakeFiles/1_ex1.dir/Lab_01
 
 
 # =============================================================================
@@ -60,7 +60,7 @@ build CMakeFiles/1_ex1.dir/Lab_1/ex1.c.o: C_COMPILER__1_ex1_Debug /Users/antoniw
 #############################################
 # Link the executable 1_ex1
 
-build 1_ex1: C_EXECUTABLE_LINKER__1_ex1_Debug CMakeFiles/1_ex1.dir/Lab_1/ex1.c.o
+build 1_ex1: C_EXECUTABLE_LINKER__1_ex1_Debug CMakeFiles/1_ex1.dir/Lab_01/ex1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/1_ex1.dir
   POST_BUILD = :
@@ -77,11 +77,11 @@ build 1_ex1: C_EXECUTABLE_LINKER__1_ex1_Debug CMakeFiles/1_ex1.dir/Lab_1/ex1.c.o
 
 build cmake_object_order_depends_target_1_ex2: phony || CMakeFiles/1_ex2.dir
 
-build CMakeFiles/1_ex2.dir/Lab_1/ex2.c.o: C_COMPILER__1_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_1/ex2.c || cmake_object_order_depends_target_1_ex2
-  DEP_FILE = CMakeFiles/1_ex2.dir/Lab_1/ex2.c.o.d
+build CMakeFiles/1_ex2.dir/Lab_01/ex2.c.o: C_COMPILER__1_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_01/ex2.c || cmake_object_order_depends_target_1_ex2
+  DEP_FILE = CMakeFiles/1_ex2.dir/Lab_01/ex2.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/1_ex2.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_ex2.dir/Lab_1
+  OBJECT_FILE_DIR = CMakeFiles/1_ex2.dir/Lab_01
 
 
 # =============================================================================
@@ -91,7 +91,7 @@ build CMakeFiles/1_ex2.dir/Lab_1/ex2.c.o: C_COMPILER__1_ex2_Debug /Users/antoniw
 #############################################
 # Link the executable 1_ex2
 
-build 1_ex2: C_EXECUTABLE_LINKER__1_ex2_Debug CMakeFiles/1_ex2.dir/Lab_1/ex2.c.o
+build 1_ex2: C_EXECUTABLE_LINKER__1_ex2_Debug CMakeFiles/1_ex2.dir/Lab_01/ex2.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/1_ex2.dir
   POST_BUILD = :
@@ -108,11 +108,11 @@ build 1_ex2: C_EXECUTABLE_LINKER__1_ex2_Debug CMakeFiles/1_ex2.dir/Lab_1/ex2.c.o
 
 build cmake_object_order_depends_target_1_ex3: phony || CMakeFiles/1_ex3.dir
 
-build CMakeFiles/1_ex3.dir/Lab_1/ex3.c.o: C_COMPILER__1_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_1/ex3.c || cmake_object_order_depends_target_1_ex3
-  DEP_FILE = CMakeFiles/1_ex3.dir/Lab_1/ex3.c.o.d
+build CMakeFiles/1_ex3.dir/Lab_01/ex3.c.o: C_COMPILER__1_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_01/ex3.c || cmake_object_order_depends_target_1_ex3
+  DEP_FILE = CMakeFiles/1_ex3.dir/Lab_01/ex3.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/1_ex3.dir
-  OBJECT_FILE_DIR = CMakeFiles/1_ex3.dir/Lab_1
+  OBJECT_FILE_DIR = CMakeFiles/1_ex3.dir/Lab_01
 
 
 # =============================================================================
@@ -122,7 +122,7 @@ build CMakeFiles/1_ex3.dir/Lab_1/ex3.c.o: C_COMPILER__1_ex3_Debug /Users/antoniw
 #############################################
 # Link the executable 1_ex3
 
-build 1_ex3: C_EXECUTABLE_LINKER__1_ex3_Debug CMakeFiles/1_ex3.dir/Lab_1/ex3.c.o
+build 1_ex3: C_EXECUTABLE_LINKER__1_ex3_Debug CMakeFiles/1_ex3.dir/Lab_01/ex3.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/1_ex3.dir
   POST_BUILD = :
@@ -139,11 +139,11 @@ build 1_ex3: C_EXECUTABLE_LINKER__1_ex3_Debug CMakeFiles/1_ex3.dir/Lab_1/ex3.c.o
 
 build cmake_object_order_depends_target_2_ex1: phony || CMakeFiles/2_ex1.dir
 
-build CMakeFiles/2_ex1.dir/Lab_2/ex1.c.o: C_COMPILER__2_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_2/ex1.c || cmake_object_order_depends_target_2_ex1
-  DEP_FILE = CMakeFiles/2_ex1.dir/Lab_2/ex1.c.o.d
+build CMakeFiles/2_ex1.dir/Lab_02/ex1.c.o: C_COMPILER__2_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_02/ex1.c || cmake_object_order_depends_target_2_ex1
+  DEP_FILE = CMakeFiles/2_ex1.dir/Lab_02/ex1.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/2_ex1.dir
-  OBJECT_FILE_DIR = CMakeFiles/2_ex1.dir/Lab_2
+  OBJECT_FILE_DIR = CMakeFiles/2_ex1.dir/Lab_02
 
 
 # =============================================================================
@@ -153,7 +153,7 @@ build CMakeFiles/2_ex1.dir/Lab_2/ex1.c.o: C_COMPILER__2_ex1_Debug /Users/antoniw
 #############################################
 # Link the executable 2_ex1
 
-build 2_ex1: C_EXECUTABLE_LINKER__2_ex1_Debug CMakeFiles/2_ex1.dir/Lab_2/ex1.c.o
+build 2_ex1: C_EXECUTABLE_LINKER__2_ex1_Debug CMakeFiles/2_ex1.dir/Lab_02/ex1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/2_ex1.dir
   POST_BUILD = :
@@ -170,11 +170,11 @@ build 2_ex1: C_EXECUTABLE_LINKER__2_ex1_Debug CMakeFiles/2_ex1.dir/Lab_2/ex1.c.o
 
 build cmake_object_order_depends_target_2_ex2: phony || CMakeFiles/2_ex2.dir
 
-build CMakeFiles/2_ex2.dir/Lab_2/ex2.c.o: C_COMPILER__2_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_2/ex2.c || cmake_object_order_depends_target_2_ex2
-  DEP_FILE = CMakeFiles/2_ex2.dir/Lab_2/ex2.c.o.d
+build CMakeFiles/2_ex2.dir/Lab_02/ex2.c.o: C_COMPILER__2_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_02/ex2.c || cmake_object_order_depends_target_2_ex2
+  DEP_FILE = CMakeFiles/2_ex2.dir/Lab_02/ex2.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/2_ex2.dir
-  OBJECT_FILE_DIR = CMakeFiles/2_ex2.dir/Lab_2
+  OBJECT_FILE_DIR = CMakeFiles/2_ex2.dir/Lab_02
 
 
 # =============================================================================
@@ -184,7 +184,7 @@ build CMakeFiles/2_ex2.dir/Lab_2/ex2.c.o: C_COMPILER__2_ex2_Debug /Users/antoniw
 #############################################
 # Link the executable 2_ex2
 
-build 2_ex2: C_EXECUTABLE_LINKER__2_ex2_Debug CMakeFiles/2_ex2.dir/Lab_2/ex2.c.o
+build 2_ex2: C_EXECUTABLE_LINKER__2_ex2_Debug CMakeFiles/2_ex2.dir/Lab_02/ex2.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/2_ex2.dir
   POST_BUILD = :
@@ -201,11 +201,11 @@ build 2_ex2: C_EXECUTABLE_LINKER__2_ex2_Debug CMakeFiles/2_ex2.dir/Lab_2/ex2.c.o
 
 build cmake_object_order_depends_target_2_ex3: phony || CMakeFiles/2_ex3.dir
 
-build CMakeFiles/2_ex3.dir/Lab_2/ex3.c.o: C_COMPILER__2_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_2/ex3.c || cmake_object_order_depends_target_2_ex3
-  DEP_FILE = CMakeFiles/2_ex3.dir/Lab_2/ex3.c.o.d
+build CMakeFiles/2_ex3.dir/Lab_02/ex3.c.o: C_COMPILER__2_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_02/ex3.c || cmake_object_order_depends_target_2_ex3
+  DEP_FILE = CMakeFiles/2_ex3.dir/Lab_02/ex3.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/2_ex3.dir
-  OBJECT_FILE_DIR = CMakeFiles/2_ex3.dir/Lab_2
+  OBJECT_FILE_DIR = CMakeFiles/2_ex3.dir/Lab_02
 
 
 # =============================================================================
@@ -215,7 +215,7 @@ build CMakeFiles/2_ex3.dir/Lab_2/ex3.c.o: C_COMPILER__2_ex3_Debug /Users/antoniw
 #############################################
 # Link the executable 2_ex3
 
-build 2_ex3: C_EXECUTABLE_LINKER__2_ex3_Debug CMakeFiles/2_ex3.dir/Lab_2/ex3.c.o
+build 2_ex3: C_EXECUTABLE_LINKER__2_ex3_Debug CMakeFiles/2_ex3.dir/Lab_02/ex3.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/2_ex3.dir
   POST_BUILD = :
@@ -232,11 +232,11 @@ build 2_ex3: C_EXECUTABLE_LINKER__2_ex3_Debug CMakeFiles/2_ex3.dir/Lab_2/ex3.c.o
 
 build cmake_object_order_depends_target_3_ex1: phony || CMakeFiles/3_ex1.dir
 
-build CMakeFiles/3_ex1.dir/Lab_3/ex1.c.o: C_COMPILER__3_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_3/ex1.c || cmake_object_order_depends_target_3_ex1
-  DEP_FILE = CMakeFiles/3_ex1.dir/Lab_3/ex1.c.o.d
+build CMakeFiles/3_ex1.dir/Lab_03/ex1.c.o: C_COMPILER__3_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_03/ex1.c || cmake_object_order_depends_target_3_ex1
+  DEP_FILE = CMakeFiles/3_ex1.dir/Lab_03/ex1.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/3_ex1.dir
-  OBJECT_FILE_DIR = CMakeFiles/3_ex1.dir/Lab_3
+  OBJECT_FILE_DIR = CMakeFiles/3_ex1.dir/Lab_03
 
 
 # =============================================================================
@@ -246,7 +246,7 @@ build CMakeFiles/3_ex1.dir/Lab_3/ex1.c.o: C_COMPILER__3_ex1_Debug /Users/antoniw
 #############################################
 # Link the executable 3_ex1
 
-build 3_ex1: C_EXECUTABLE_LINKER__3_ex1_Debug CMakeFiles/3_ex1.dir/Lab_3/ex1.c.o
+build 3_ex1: C_EXECUTABLE_LINKER__3_ex1_Debug CMakeFiles/3_ex1.dir/Lab_03/ex1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/3_ex1.dir
   POST_BUILD = :
@@ -263,11 +263,11 @@ build 3_ex1: C_EXECUTABLE_LINKER__3_ex1_Debug CMakeFiles/3_ex1.dir/Lab_3/ex1.c.o
 
 build cmake_object_order_depends_target_3_ex2: phony || CMakeFiles/3_ex2.dir
 
-build CMakeFiles/3_ex2.dir/Lab_3/ex2.c.o: C_COMPILER__3_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_3/ex2.c || cmake_object_order_depends_target_3_ex2
-  DEP_FILE = CMakeFiles/3_ex2.dir/Lab_3/ex2.c.o.d
+build CMakeFiles/3_ex2.dir/Lab_03/ex2.c.o: C_COMPILER__3_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_03/ex2.c || cmake_object_order_depends_target_3_ex2
+  DEP_FILE = CMakeFiles/3_ex2.dir/Lab_03/ex2.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/3_ex2.dir
-  OBJECT_FILE_DIR = CMakeFiles/3_ex2.dir/Lab_3
+  OBJECT_FILE_DIR = CMakeFiles/3_ex2.dir/Lab_03
 
 
 # =============================================================================
@@ -277,7 +277,7 @@ build CMakeFiles/3_ex2.dir/Lab_3/ex2.c.o: C_COMPILER__3_ex2_Debug /Users/antoniw
 #############################################
 # Link the executable 3_ex2
 
-build 3_ex2: C_EXECUTABLE_LINKER__3_ex2_Debug CMakeFiles/3_ex2.dir/Lab_3/ex2.c.o
+build 3_ex2: C_EXECUTABLE_LINKER__3_ex2_Debug CMakeFiles/3_ex2.dir/Lab_03/ex2.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/3_ex2.dir
   POST_BUILD = :
@@ -294,11 +294,11 @@ build 3_ex2: C_EXECUTABLE_LINKER__3_ex2_Debug CMakeFiles/3_ex2.dir/Lab_3/ex2.c.o
 
 build cmake_object_order_depends_target_3_ex3: phony || CMakeFiles/3_ex3.dir
 
-build CMakeFiles/3_ex3.dir/Lab_3/ex3.c.o: C_COMPILER__3_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_3/ex3.c || cmake_object_order_depends_target_3_ex3
-  DEP_FILE = CMakeFiles/3_ex3.dir/Lab_3/ex3.c.o.d
+build CMakeFiles/3_ex3.dir/Lab_03/ex3.c.o: C_COMPILER__3_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_03/ex3.c || cmake_object_order_depends_target_3_ex3
+  DEP_FILE = CMakeFiles/3_ex3.dir/Lab_03/ex3.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/3_ex3.dir
-  OBJECT_FILE_DIR = CMakeFiles/3_ex3.dir/Lab_3
+  OBJECT_FILE_DIR = CMakeFiles/3_ex3.dir/Lab_03
 
 
 # =============================================================================
@@ -308,7 +308,7 @@ build CMakeFiles/3_ex3.dir/Lab_3/ex3.c.o: C_COMPILER__3_ex3_Debug /Users/antoniw
 #############################################
 # Link the executable 3_ex3
 
-build 3_ex3: C_EXECUTABLE_LINKER__3_ex3_Debug CMakeFiles/3_ex3.dir/Lab_3/ex3.c.o
+build 3_ex3: C_EXECUTABLE_LINKER__3_ex3_Debug CMakeFiles/3_ex3.dir/Lab_03/ex3.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/3_ex3.dir
   POST_BUILD = :
@@ -325,11 +325,11 @@ build 3_ex3: C_EXECUTABLE_LINKER__3_ex3_Debug CMakeFiles/3_ex3.dir/Lab_3/ex3.c.o
 
 build cmake_object_order_depends_target_4_ex1: phony || CMakeFiles/4_ex1.dir
 
-build CMakeFiles/4_ex1.dir/Lab_4/ex1.c.o: C_COMPILER__4_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_4/ex1.c || cmake_object_order_depends_target_4_ex1
-  DEP_FILE = CMakeFiles/4_ex1.dir/Lab_4/ex1.c.o.d
+build CMakeFiles/4_ex1.dir/Lab_04/ex1.c.o: C_COMPILER__4_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_04/ex1.c || cmake_object_order_depends_target_4_ex1
+  DEP_FILE = CMakeFiles/4_ex1.dir/Lab_04/ex1.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/4_ex1.dir
-  OBJECT_FILE_DIR = CMakeFiles/4_ex1.dir/Lab_4
+  OBJECT_FILE_DIR = CMakeFiles/4_ex1.dir/Lab_04
 
 
 # =============================================================================
@@ -339,7 +339,7 @@ build CMakeFiles/4_ex1.dir/Lab_4/ex1.c.o: C_COMPILER__4_ex1_Debug /Users/antoniw
 #############################################
 # Link the executable 4_ex1
 
-build 4_ex1: C_EXECUTABLE_LINKER__4_ex1_Debug CMakeFiles/4_ex1.dir/Lab_4/ex1.c.o
+build 4_ex1: C_EXECUTABLE_LINKER__4_ex1_Debug CMakeFiles/4_ex1.dir/Lab_04/ex1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/4_ex1.dir
   POST_BUILD = :
@@ -356,11 +356,11 @@ build 4_ex1: C_EXECUTABLE_LINKER__4_ex1_Debug CMakeFiles/4_ex1.dir/Lab_4/ex1.c.o
 
 build cmake_object_order_depends_target_4_ex2: phony || CMakeFiles/4_ex2.dir
 
-build CMakeFiles/4_ex2.dir/Lab_4/ex2.c.o: C_COMPILER__4_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_4/ex2.c || cmake_object_order_depends_target_4_ex2
-  DEP_FILE = CMakeFiles/4_ex2.dir/Lab_4/ex2.c.o.d
+build CMakeFiles/4_ex2.dir/Lab_04/ex2.c.o: C_COMPILER__4_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_04/ex2.c || cmake_object_order_depends_target_4_ex2
+  DEP_FILE = CMakeFiles/4_ex2.dir/Lab_04/ex2.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/4_ex2.dir
-  OBJECT_FILE_DIR = CMakeFiles/4_ex2.dir/Lab_4
+  OBJECT_FILE_DIR = CMakeFiles/4_ex2.dir/Lab_04
 
 
 # =============================================================================
@@ -370,7 +370,7 @@ build CMakeFiles/4_ex2.dir/Lab_4/ex2.c.o: C_COMPILER__4_ex2_Debug /Users/antoniw
 #############################################
 # Link the executable 4_ex2
 
-build 4_ex2: C_EXECUTABLE_LINKER__4_ex2_Debug CMakeFiles/4_ex2.dir/Lab_4/ex2.c.o
+build 4_ex2: C_EXECUTABLE_LINKER__4_ex2_Debug CMakeFiles/4_ex2.dir/Lab_04/ex2.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/4_ex2.dir
   POST_BUILD = :
@@ -387,11 +387,11 @@ build 4_ex2: C_EXECUTABLE_LINKER__4_ex2_Debug CMakeFiles/4_ex2.dir/Lab_4/ex2.c.o
 
 build cmake_object_order_depends_target_4_ex3: phony || CMakeFiles/4_ex3.dir
 
-build CMakeFiles/4_ex3.dir/Lab_4/ex3.c.o: C_COMPILER__4_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_4/ex3.c || cmake_object_order_depends_target_4_ex3
-  DEP_FILE = CMakeFiles/4_ex3.dir/Lab_4/ex3.c.o.d
+build CMakeFiles/4_ex3.dir/Lab_04/ex3.c.o: C_COMPILER__4_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_04/ex3.c || cmake_object_order_depends_target_4_ex3
+  DEP_FILE = CMakeFiles/4_ex3.dir/Lab_04/ex3.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/4_ex3.dir
-  OBJECT_FILE_DIR = CMakeFiles/4_ex3.dir/Lab_4
+  OBJECT_FILE_DIR = CMakeFiles/4_ex3.dir/Lab_04
 
 
 # =============================================================================
@@ -401,7 +401,7 @@ build CMakeFiles/4_ex3.dir/Lab_4/ex3.c.o: C_COMPILER__4_ex3_Debug /Users/antoniw
 #############################################
 # Link the executable 4_ex3
 
-build 4_ex3: C_EXECUTABLE_LINKER__4_ex3_Debug CMakeFiles/4_ex3.dir/Lab_4/ex3.c.o
+build 4_ex3: C_EXECUTABLE_LINKER__4_ex3_Debug CMakeFiles/4_ex3.dir/Lab_04/ex3.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/4_ex3.dir
   POST_BUILD = :
@@ -418,11 +418,11 @@ build 4_ex3: C_EXECUTABLE_LINKER__4_ex3_Debug CMakeFiles/4_ex3.dir/Lab_4/ex3.c.o
 
 build cmake_object_order_depends_target_5_ex1: phony || CMakeFiles/5_ex1.dir
 
-build CMakeFiles/5_ex1.dir/Lab_5/ex1.c.o: C_COMPILER__5_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_5/ex1.c || cmake_object_order_depends_target_5_ex1
-  DEP_FILE = CMakeFiles/5_ex1.dir/Lab_5/ex1.c.o.d
+build CMakeFiles/5_ex1.dir/Lab_05/ex1.c.o: C_COMPILER__5_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_05/ex1.c || cmake_object_order_depends_target_5_ex1
+  DEP_FILE = CMakeFiles/5_ex1.dir/Lab_05/ex1.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/5_ex1.dir
-  OBJECT_FILE_DIR = CMakeFiles/5_ex1.dir/Lab_5
+  OBJECT_FILE_DIR = CMakeFiles/5_ex1.dir/Lab_05
 
 
 # =============================================================================
@@ -432,7 +432,7 @@ build CMakeFiles/5_ex1.dir/Lab_5/ex1.c.o: C_COMPILER__5_ex1_Debug /Users/antoniw
 #############################################
 # Link the executable 5_ex1
 
-build 5_ex1: C_EXECUTABLE_LINKER__5_ex1_Debug CMakeFiles/5_ex1.dir/Lab_5/ex1.c.o
+build 5_ex1: C_EXECUTABLE_LINKER__5_ex1_Debug CMakeFiles/5_ex1.dir/Lab_05/ex1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/5_ex1.dir
   POST_BUILD = :
@@ -449,11 +449,11 @@ build 5_ex1: C_EXECUTABLE_LINKER__5_ex1_Debug CMakeFiles/5_ex1.dir/Lab_5/ex1.c.o
 
 build cmake_object_order_depends_target_5_ex2: phony || CMakeFiles/5_ex2.dir
 
-build CMakeFiles/5_ex2.dir/Lab_5/ex2.c.o: C_COMPILER__5_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_5/ex2.c || cmake_object_order_depends_target_5_ex2
-  DEP_FILE = CMakeFiles/5_ex2.dir/Lab_5/ex2.c.o.d
+build CMakeFiles/5_ex2.dir/Lab_05/ex2.c.o: C_COMPILER__5_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_05/ex2.c || cmake_object_order_depends_target_5_ex2
+  DEP_FILE = CMakeFiles/5_ex2.dir/Lab_05/ex2.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/5_ex2.dir
-  OBJECT_FILE_DIR = CMakeFiles/5_ex2.dir/Lab_5
+  OBJECT_FILE_DIR = CMakeFiles/5_ex2.dir/Lab_05
 
 
 # =============================================================================
@@ -463,7 +463,7 @@ build CMakeFiles/5_ex2.dir/Lab_5/ex2.c.o: C_COMPILER__5_ex2_Debug /Users/antoniw
 #############################################
 # Link the executable 5_ex2
 
-build 5_ex2: C_EXECUTABLE_LINKER__5_ex2_Debug CMakeFiles/5_ex2.dir/Lab_5/ex2.c.o
+build 5_ex2: C_EXECUTABLE_LINKER__5_ex2_Debug CMakeFiles/5_ex2.dir/Lab_05/ex2.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/5_ex2.dir
   POST_BUILD = :
@@ -480,11 +480,11 @@ build 5_ex2: C_EXECUTABLE_LINKER__5_ex2_Debug CMakeFiles/5_ex2.dir/Lab_5/ex2.c.o
 
 build cmake_object_order_depends_target_5_ex3: phony || CMakeFiles/5_ex3.dir
 
-build CMakeFiles/5_ex3.dir/Lab_5/ex3.c.o: C_COMPILER__5_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_5/ex3.c || cmake_object_order_depends_target_5_ex3
-  DEP_FILE = CMakeFiles/5_ex3.dir/Lab_5/ex3.c.o.d
+build CMakeFiles/5_ex3.dir/Lab_05/ex3.c.o: C_COMPILER__5_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_05/ex3.c || cmake_object_order_depends_target_5_ex3
+  DEP_FILE = CMakeFiles/5_ex3.dir/Lab_05/ex3.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/5_ex3.dir
-  OBJECT_FILE_DIR = CMakeFiles/5_ex3.dir/Lab_5
+  OBJECT_FILE_DIR = CMakeFiles/5_ex3.dir/Lab_05
 
 
 # =============================================================================
@@ -494,7 +494,7 @@ build CMakeFiles/5_ex3.dir/Lab_5/ex3.c.o: C_COMPILER__5_ex3_Debug /Users/antoniw
 #############################################
 # Link the executable 5_ex3
 
-build 5_ex3: C_EXECUTABLE_LINKER__5_ex3_Debug CMakeFiles/5_ex3.dir/Lab_5/ex3.c.o
+build 5_ex3: C_EXECUTABLE_LINKER__5_ex3_Debug CMakeFiles/5_ex3.dir/Lab_05/ex3.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/5_ex3.dir
   POST_BUILD = :
@@ -511,11 +511,11 @@ build 5_ex3: C_EXECUTABLE_LINKER__5_ex3_Debug CMakeFiles/5_ex3.dir/Lab_5/ex3.c.o
 
 build cmake_object_order_depends_target_6_ex1: phony || CMakeFiles/6_ex1.dir
 
-build CMakeFiles/6_ex1.dir/Lab_6/ex1.c.o: C_COMPILER__6_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_6/ex1.c || cmake_object_order_depends_target_6_ex1
-  DEP_FILE = CMakeFiles/6_ex1.dir/Lab_6/ex1.c.o.d
+build CMakeFiles/6_ex1.dir/Lab_06/ex1.c.o: C_COMPILER__6_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_06/ex1.c || cmake_object_order_depends_target_6_ex1
+  DEP_FILE = CMakeFiles/6_ex1.dir/Lab_06/ex1.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/6_ex1.dir
-  OBJECT_FILE_DIR = CMakeFiles/6_ex1.dir/Lab_6
+  OBJECT_FILE_DIR = CMakeFiles/6_ex1.dir/Lab_06
 
 
 # =============================================================================
@@ -525,7 +525,7 @@ build CMakeFiles/6_ex1.dir/Lab_6/ex1.c.o: C_COMPILER__6_ex1_Debug /Users/antoniw
 #############################################
 # Link the executable 6_ex1
 
-build 6_ex1: C_EXECUTABLE_LINKER__6_ex1_Debug CMakeFiles/6_ex1.dir/Lab_6/ex1.c.o
+build 6_ex1: C_EXECUTABLE_LINKER__6_ex1_Debug CMakeFiles/6_ex1.dir/Lab_06/ex1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/6_ex1.dir
   POST_BUILD = :
@@ -542,11 +542,11 @@ build 6_ex1: C_EXECUTABLE_LINKER__6_ex1_Debug CMakeFiles/6_ex1.dir/Lab_6/ex1.c.o
 
 build cmake_object_order_depends_target_6_ex2: phony || CMakeFiles/6_ex2.dir
 
-build CMakeFiles/6_ex2.dir/Lab_6/ex2.c.o: C_COMPILER__6_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_6/ex2.c || cmake_object_order_depends_target_6_ex2
-  DEP_FILE = CMakeFiles/6_ex2.dir/Lab_6/ex2.c.o.d
+build CMakeFiles/6_ex2.dir/Lab_06/ex2.c.o: C_COMPILER__6_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_06/ex2.c || cmake_object_order_depends_target_6_ex2
+  DEP_FILE = CMakeFiles/6_ex2.dir/Lab_06/ex2.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/6_ex2.dir
-  OBJECT_FILE_DIR = CMakeFiles/6_ex2.dir/Lab_6
+  OBJECT_FILE_DIR = CMakeFiles/6_ex2.dir/Lab_06
 
 
 # =============================================================================
@@ -556,7 +556,7 @@ build CMakeFiles/6_ex2.dir/Lab_6/ex2.c.o: C_COMPILER__6_ex2_Debug /Users/antoniw
 #############################################
 # Link the executable 6_ex2
 
-build 6_ex2: C_EXECUTABLE_LINKER__6_ex2_Debug CMakeFiles/6_ex2.dir/Lab_6/ex2.c.o
+build 6_ex2: C_EXECUTABLE_LINKER__6_ex2_Debug CMakeFiles/6_ex2.dir/Lab_06/ex2.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/6_ex2.dir
   POST_BUILD = :
@@ -573,11 +573,11 @@ build 6_ex2: C_EXECUTABLE_LINKER__6_ex2_Debug CMakeFiles/6_ex2.dir/Lab_6/ex2.c.o
 
 build cmake_object_order_depends_target_6_ex3: phony || CMakeFiles/6_ex3.dir
 
-build CMakeFiles/6_ex3.dir/Lab_6/ex3.c.o: C_COMPILER__6_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_6/ex3.c || cmake_object_order_depends_target_6_ex3
-  DEP_FILE = CMakeFiles/6_ex3.dir/Lab_6/ex3.c.o.d
+build CMakeFiles/6_ex3.dir/Lab_06/ex3.c.o: C_COMPILER__6_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_06/ex3.c || cmake_object_order_depends_target_6_ex3
+  DEP_FILE = CMakeFiles/6_ex3.dir/Lab_06/ex3.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/6_ex3.dir
-  OBJECT_FILE_DIR = CMakeFiles/6_ex3.dir/Lab_6
+  OBJECT_FILE_DIR = CMakeFiles/6_ex3.dir/Lab_06
 
 
 # =============================================================================
@@ -587,7 +587,7 @@ build CMakeFiles/6_ex3.dir/Lab_6/ex3.c.o: C_COMPILER__6_ex3_Debug /Users/antoniw
 #############################################
 # Link the executable 6_ex3
 
-build 6_ex3: C_EXECUTABLE_LINKER__6_ex3_Debug CMakeFiles/6_ex3.dir/Lab_6/ex3.c.o
+build 6_ex3: C_EXECUTABLE_LINKER__6_ex3_Debug CMakeFiles/6_ex3.dir/Lab_06/ex3.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/6_ex3.dir
   POST_BUILD = :
@@ -604,11 +604,11 @@ build 6_ex3: C_EXECUTABLE_LINKER__6_ex3_Debug CMakeFiles/6_ex3.dir/Lab_6/ex3.c.o
 
 build cmake_object_order_depends_target_7_ex1: phony || CMakeFiles/7_ex1.dir
 
-build CMakeFiles/7_ex1.dir/Lab_7/ex1.c.o: C_COMPILER__7_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_7/ex1.c || cmake_object_order_depends_target_7_ex1
-  DEP_FILE = CMakeFiles/7_ex1.dir/Lab_7/ex1.c.o.d
+build CMakeFiles/7_ex1.dir/Lab_07/ex1.c.o: C_COMPILER__7_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_07/ex1.c || cmake_object_order_depends_target_7_ex1
+  DEP_FILE = CMakeFiles/7_ex1.dir/Lab_07/ex1.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/7_ex1.dir
-  OBJECT_FILE_DIR = CMakeFiles/7_ex1.dir/Lab_7
+  OBJECT_FILE_DIR = CMakeFiles/7_ex1.dir/Lab_07
 
 
 # =============================================================================
@@ -618,7 +618,7 @@ build CMakeFiles/7_ex1.dir/Lab_7/ex1.c.o: C_COMPILER__7_ex1_Debug /Users/antoniw
 #############################################
 # Link the executable 7_ex1
 
-build 7_ex1: C_EXECUTABLE_LINKER__7_ex1_Debug CMakeFiles/7_ex1.dir/Lab_7/ex1.c.o
+build 7_ex1: C_EXECUTABLE_LINKER__7_ex1_Debug CMakeFiles/7_ex1.dir/Lab_07/ex1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/7_ex1.dir
   POST_BUILD = :
@@ -635,11 +635,11 @@ build 7_ex1: C_EXECUTABLE_LINKER__7_ex1_Debug CMakeFiles/7_ex1.dir/Lab_7/ex1.c.o
 
 build cmake_object_order_depends_target_7_ex2: phony || CMakeFiles/7_ex2.dir
 
-build CMakeFiles/7_ex2.dir/Lab_7/ex2.c.o: C_COMPILER__7_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_7/ex2.c || cmake_object_order_depends_target_7_ex2
-  DEP_FILE = CMakeFiles/7_ex2.dir/Lab_7/ex2.c.o.d
+build CMakeFiles/7_ex2.dir/Lab_07/ex2.c.o: C_COMPILER__7_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_07/ex2.c || cmake_object_order_depends_target_7_ex2
+  DEP_FILE = CMakeFiles/7_ex2.dir/Lab_07/ex2.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/7_ex2.dir
-  OBJECT_FILE_DIR = CMakeFiles/7_ex2.dir/Lab_7
+  OBJECT_FILE_DIR = CMakeFiles/7_ex2.dir/Lab_07
 
 
 # =============================================================================
@@ -649,7 +649,7 @@ build CMakeFiles/7_ex2.dir/Lab_7/ex2.c.o: C_COMPILER__7_ex2_Debug /Users/antoniw
 #############################################
 # Link the executable 7_ex2
 
-build 7_ex2: C_EXECUTABLE_LINKER__7_ex2_Debug CMakeFiles/7_ex2.dir/Lab_7/ex2.c.o
+build 7_ex2: C_EXECUTABLE_LINKER__7_ex2_Debug CMakeFiles/7_ex2.dir/Lab_07/ex2.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/7_ex2.dir
   POST_BUILD = :
@@ -666,11 +666,11 @@ build 7_ex2: C_EXECUTABLE_LINKER__7_ex2_Debug CMakeFiles/7_ex2.dir/Lab_7/ex2.c.o
 
 build cmake_object_order_depends_target_7_ex3: phony || CMakeFiles/7_ex3.dir
 
-build CMakeFiles/7_ex3.dir/Lab_7/ex3.c.o: C_COMPILER__7_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_7/ex3.c || cmake_object_order_depends_target_7_ex3
-  DEP_FILE = CMakeFiles/7_ex3.dir/Lab_7/ex3.c.o.d
+build CMakeFiles/7_ex3.dir/Lab_07/ex3.c.o: C_COMPILER__7_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_07/ex3.c || cmake_object_order_depends_target_7_ex3
+  DEP_FILE = CMakeFiles/7_ex3.dir/Lab_07/ex3.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/7_ex3.dir
-  OBJECT_FILE_DIR = CMakeFiles/7_ex3.dir/Lab_7
+  OBJECT_FILE_DIR = CMakeFiles/7_ex3.dir/Lab_07
 
 
 # =============================================================================
@@ -680,7 +680,7 @@ build CMakeFiles/7_ex3.dir/Lab_7/ex3.c.o: C_COMPILER__7_ex3_Debug /Users/antoniw
 #############################################
 # Link the executable 7_ex3
 
-build 7_ex3: C_EXECUTABLE_LINKER__7_ex3_Debug CMakeFiles/7_ex3.dir/Lab_7/ex3.c.o
+build 7_ex3: C_EXECUTABLE_LINKER__7_ex3_Debug CMakeFiles/7_ex3.dir/Lab_07/ex3.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/7_ex3.dir
   POST_BUILD = :
@@ -697,11 +697,11 @@ build 7_ex3: C_EXECUTABLE_LINKER__7_ex3_Debug CMakeFiles/7_ex3.dir/Lab_7/ex3.c.o
 
 build cmake_object_order_depends_target_8_ex1: phony || CMakeFiles/8_ex1.dir
 
-build CMakeFiles/8_ex1.dir/Lab_8/ex1.c.o: C_COMPILER__8_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_8/ex1.c || cmake_object_order_depends_target_8_ex1
-  DEP_FILE = CMakeFiles/8_ex1.dir/Lab_8/ex1.c.o.d
+build CMakeFiles/8_ex1.dir/Lab_08/ex1.c.o: C_COMPILER__8_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_08/ex1.c || cmake_object_order_depends_target_8_ex1
+  DEP_FILE = CMakeFiles/8_ex1.dir/Lab_08/ex1.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/8_ex1.dir
-  OBJECT_FILE_DIR = CMakeFiles/8_ex1.dir/Lab_8
+  OBJECT_FILE_DIR = CMakeFiles/8_ex1.dir/Lab_08
 
 
 # =============================================================================
@@ -711,7 +711,7 @@ build CMakeFiles/8_ex1.dir/Lab_8/ex1.c.o: C_COMPILER__8_ex1_Debug /Users/antoniw
 #############################################
 # Link the executable 8_ex1
 
-build 8_ex1: C_EXECUTABLE_LINKER__8_ex1_Debug CMakeFiles/8_ex1.dir/Lab_8/ex1.c.o
+build 8_ex1: C_EXECUTABLE_LINKER__8_ex1_Debug CMakeFiles/8_ex1.dir/Lab_08/ex1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/8_ex1.dir
   POST_BUILD = :
@@ -728,11 +728,11 @@ build 8_ex1: C_EXECUTABLE_LINKER__8_ex1_Debug CMakeFiles/8_ex1.dir/Lab_8/ex1.c.o
 
 build cmake_object_order_depends_target_8_ex2: phony || CMakeFiles/8_ex2.dir
 
-build CMakeFiles/8_ex2.dir/Lab_8/ex2.c.o: C_COMPILER__8_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_8/ex2.c || cmake_object_order_depends_target_8_ex2
-  DEP_FILE = CMakeFiles/8_ex2.dir/Lab_8/ex2.c.o.d
+build CMakeFiles/8_ex2.dir/Lab_08/ex2.c.o: C_COMPILER__8_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_08/ex2.c || cmake_object_order_depends_target_8_ex2
+  DEP_FILE = CMakeFiles/8_ex2.dir/Lab_08/ex2.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/8_ex2.dir
-  OBJECT_FILE_DIR = CMakeFiles/8_ex2.dir/Lab_8
+  OBJECT_FILE_DIR = CMakeFiles/8_ex2.dir/Lab_08
 
 
 # =============================================================================
@@ -742,7 +742,7 @@ build CMakeFiles/8_ex2.dir/Lab_8/ex2.c.o: C_COMPILER__8_ex2_Debug /Users/antoniw
 #############################################
 # Link the executable 8_ex2
 
-build 8_ex2: C_EXECUTABLE_LINKER__8_ex2_Debug CMakeFiles/8_ex2.dir/Lab_8/ex2.c.o
+build 8_ex2: C_EXECUTABLE_LINKER__8_ex2_Debug CMakeFiles/8_ex2.dir/Lab_08/ex2.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/8_ex2.dir
   POST_BUILD = :
@@ -759,11 +759,11 @@ build 8_ex2: C_EXECUTABLE_LINKER__8_ex2_Debug CMakeFiles/8_ex2.dir/Lab_8/ex2.c.o
 
 build cmake_object_order_depends_target_8_ex3: phony || CMakeFiles/8_ex3.dir
 
-build CMakeFiles/8_ex3.dir/Lab_8/ex3.c.o: C_COMPILER__8_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_8/ex3.c || cmake_object_order_depends_target_8_ex3
-  DEP_FILE = CMakeFiles/8_ex3.dir/Lab_8/ex3.c.o.d
+build CMakeFiles/8_ex3.dir/Lab_08/ex3.c.o: C_COMPILER__8_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_08/ex3.c || cmake_object_order_depends_target_8_ex3
+  DEP_FILE = CMakeFiles/8_ex3.dir/Lab_08/ex3.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/8_ex3.dir
-  OBJECT_FILE_DIR = CMakeFiles/8_ex3.dir/Lab_8
+  OBJECT_FILE_DIR = CMakeFiles/8_ex3.dir/Lab_08
 
 
 # =============================================================================
@@ -773,7 +773,7 @@ build CMakeFiles/8_ex3.dir/Lab_8/ex3.c.o: C_COMPILER__8_ex3_Debug /Users/antoniw
 #############################################
 # Link the executable 8_ex3
 
-build 8_ex3: C_EXECUTABLE_LINKER__8_ex3_Debug CMakeFiles/8_ex3.dir/Lab_8/ex3.c.o
+build 8_ex3: C_EXECUTABLE_LINKER__8_ex3_Debug CMakeFiles/8_ex3.dir/Lab_08/ex3.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/8_ex3.dir
   POST_BUILD = :
@@ -790,11 +790,11 @@ build 8_ex3: C_EXECUTABLE_LINKER__8_ex3_Debug CMakeFiles/8_ex3.dir/Lab_8/ex3.c.o
 
 build cmake_object_order_depends_target_9_ex1: phony || CMakeFiles/9_ex1.dir
 
-build CMakeFiles/9_ex1.dir/Lab_9/ex1.c.o: C_COMPILER__9_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_9/ex1.c || cmake_object_order_depends_target_9_ex1
-  DEP_FILE = CMakeFiles/9_ex1.dir/Lab_9/ex1.c.o.d
+build CMakeFiles/9_ex1.dir/Lab_09/ex1.c.o: C_COMPILER__9_ex1_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_09/ex1.c || cmake_object_order_depends_target_9_ex1
+  DEP_FILE = CMakeFiles/9_ex1.dir/Lab_09/ex1.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/9_ex1.dir
-  OBJECT_FILE_DIR = CMakeFiles/9_ex1.dir/Lab_9
+  OBJECT_FILE_DIR = CMakeFiles/9_ex1.dir/Lab_09
 
 
 # =============================================================================
@@ -804,7 +804,7 @@ build CMakeFiles/9_ex1.dir/Lab_9/ex1.c.o: C_COMPILER__9_ex1_Debug /Users/antoniw
 #############################################
 # Link the executable 9_ex1
 
-build 9_ex1: C_EXECUTABLE_LINKER__9_ex1_Debug CMakeFiles/9_ex1.dir/Lab_9/ex1.c.o
+build 9_ex1: C_EXECUTABLE_LINKER__9_ex1_Debug CMakeFiles/9_ex1.dir/Lab_09/ex1.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/9_ex1.dir
   POST_BUILD = :
@@ -821,11 +821,11 @@ build 9_ex1: C_EXECUTABLE_LINKER__9_ex1_Debug CMakeFiles/9_ex1.dir/Lab_9/ex1.c.o
 
 build cmake_object_order_depends_target_9_ex2: phony || CMakeFiles/9_ex2.dir
 
-build CMakeFiles/9_ex2.dir/Lab_9/ex2.c.o: C_COMPILER__9_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_9/ex2.c || cmake_object_order_depends_target_9_ex2
-  DEP_FILE = CMakeFiles/9_ex2.dir/Lab_9/ex2.c.o.d
+build CMakeFiles/9_ex2.dir/Lab_09/ex2.c.o: C_COMPILER__9_ex2_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_09/ex2.c || cmake_object_order_depends_target_9_ex2
+  DEP_FILE = CMakeFiles/9_ex2.dir/Lab_09/ex2.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/9_ex2.dir
-  OBJECT_FILE_DIR = CMakeFiles/9_ex2.dir/Lab_9
+  OBJECT_FILE_DIR = CMakeFiles/9_ex2.dir/Lab_09
 
 
 # =============================================================================
@@ -835,7 +835,7 @@ build CMakeFiles/9_ex2.dir/Lab_9/ex2.c.o: C_COMPILER__9_ex2_Debug /Users/antoniw
 #############################################
 # Link the executable 9_ex2
 
-build 9_ex2: C_EXECUTABLE_LINKER__9_ex2_Debug CMakeFiles/9_ex2.dir/Lab_9/ex2.c.o
+build 9_ex2: C_EXECUTABLE_LINKER__9_ex2_Debug CMakeFiles/9_ex2.dir/Lab_09/ex2.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/9_ex2.dir
   POST_BUILD = :
@@ -852,11 +852,11 @@ build 9_ex2: C_EXECUTABLE_LINKER__9_ex2_Debug CMakeFiles/9_ex2.dir/Lab_9/ex2.c.o
 
 build cmake_object_order_depends_target_9_ex3: phony || CMakeFiles/9_ex3.dir
 
-build CMakeFiles/9_ex3.dir/Lab_9/ex3.c.o: C_COMPILER__9_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_9/ex3.c || cmake_object_order_depends_target_9_ex3
-  DEP_FILE = CMakeFiles/9_ex3.dir/Lab_9/ex3.c.o.d
+build CMakeFiles/9_ex3.dir/Lab_09/ex3.c.o: C_COMPILER__9_ex3_Debug /Users/antoniwojcik/CLionProjects/PI-2021/Lab_09/ex3.c || cmake_object_order_depends_target_9_ex3
+  DEP_FILE = CMakeFiles/9_ex3.dir/Lab_09/ex3.c.o.d
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu11
   OBJECT_DIR = CMakeFiles/9_ex3.dir
-  OBJECT_FILE_DIR = CMakeFiles/9_ex3.dir/Lab_9
+  OBJECT_FILE_DIR = CMakeFiles/9_ex3.dir/Lab_09
 
 
 # =============================================================================
@@ -866,7 +866,7 @@ build CMakeFiles/9_ex3.dir/Lab_9/ex3.c.o: C_COMPILER__9_ex3_Debug /Users/antoniw
 #############################################
 # Link the executable 9_ex3
 
-build 9_ex3: C_EXECUTABLE_LINKER__9_ex3_Debug CMakeFiles/9_ex3.dir/Lab_9/ex3.c.o
+build 9_ex3: C_EXECUTABLE_LINKER__9_ex3_Debug CMakeFiles/9_ex3.dir/Lab_09/ex3.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/9_ex3.dir
   POST_BUILD = :
